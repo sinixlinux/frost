@@ -26,7 +26,7 @@ window {
     height: 360px;
     border: 2px;
     border-color: @border-col;
-    border-radius: 12px;    /* Cantos arredondados externos */
+    border-radius: 12px;
     background-color: @bg-col;
 }
 
@@ -45,7 +45,7 @@ prompt {
     background-color: @border-col;
     padding: 6px;
     text-color: #1E222A;
-    border-radius: 8px;     /* Cantos da tag de entrada */
+    border-radius: 8px;
     margin: 10px 0px 0px 10px;
 }
 
@@ -69,7 +69,7 @@ element {
     padding: 8px;
     background-color: @bg-col;
     text-color: @fg-col;
-    border-radius: 8px;     /* Elementos da lista arredondados */
+    border-radius: 8px;
 }
 
 element-text {
@@ -79,7 +79,7 @@ element-text {
 
 element selected {
     background-color: @selected-col;
-    text-color: #1E222A;   /* Texto escuro no fundo azul para ler bem */
+    text-color: #1E222A;
 }
 
 element normal.normal {
